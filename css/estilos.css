@@ -1,0 +1,132 @@
+body {
+  background-color: darkgray;
+  
+}
+
+  .imagen {
+    background-image: url(../images/logo3.jpg);
+    background-size:cover;
+    background-position:center ;
+    height: 100%;
+    padding-bottom: 20rem;
+    
+  }
+
+
+
+.contenedor {
+  max-width:80rem;
+  margin:0 auto;
+  padding: 2rem;
+  background-color: bisque;
+}
+p{
+  
+  font-size: 1.4rem;
+  text-align: center;
+}
+legend{
+  text-align: start;
+}
+h1{
+  text-align: center;
+  color: dodgerblue;
+  font-size: 2.8rem;
+  
+}
+div.contenido {
+  width: 70%;
+  margin: 2rem auto 2rem auto;
+  font-size: 2.2rem;
+}
+.contenido fieldset{
+  text-align: center;
+  justify-content: stretch;
+  padding: 3rem;
+  margin-top: 1rem;
+}
+
+.contenido fieldset legend{
+  align-items: center;
+  color: coral;
+  font-size:1.8rem ;
+}
+.contenido label{
+  
+  font-size: 1.6rem;
+  margin-right: 3rem; 
+}
+h2{
+  color:coral;
+  font-size: 1.4rem;
+  margin: 0 auto;
+}
+.center{
+  text-align: center;
+}
+
+.boton{
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: rgb(61, 109, 110);
+  padding: 1rem, 3rem;
+  display: inline-block;
+  margin-top: 3rem;
+  text-align: center;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+  background-color:darkorange;
+
+}
+input:not([type="submit"])  :not([type="reset"]), textarea, select{
+  padding: 1rem;
+  background-color: #c9c9c9;
+  margin-bottom: 2rem;
+  border: none;
+  border-radius: 2rem;
+}
+
+  
+.comentarios textarea{
+  margin:0 auto;
+  height: 10rem;
+  width: 45rem;
+}
+.datos input{
+  padding: 1rem;
+  background-color: #c9c9c9;
+  margin-bottom: 2rem;
+  border: none;
+  border-radius: 2rem;
+}
+.botones{
+  text-align: center;
+}
+.img{
+  width: 25rem;
+  height: 10rem;
+
+}
+.imagen h1{
+  text-align: start;
+  
+}
+.fin{
+display: flex;
+justify-content: space-around;
+align-items: center;
+text-align: center;
+flex-wrap: wrap;
+}
+td{
+  display: inline-table;
+  display: table-cell;
+    vertical-align: inherit;
+}
+/*verificacion*/
+.ver{
+  font-size: 1.8rem;
+  color: #8399c2;
+  text-align: center;
+}
